@@ -1,7 +1,13 @@
-# Next.js Tailwind UI Showcase
+# Next.js Project Setup and Basics
 
 This is a **Next.js + TypeScript** project styled with **Tailwind CSS**.  
 It showcases reusable UI components like Cards, Modals, Buttons, and data fetching pages (Users, Posts).
+To initialize the project, use the following command:
+
+npx create-next-app@latest airbnb-clone --typescript --eslint --tailwind
+Choose the following options: - src directory: No - App Router: No - Customize the default import alias: Yes (use @/* for simpler imports)
+
+This command scaffolds a Next.js project with TypeScript, ESLint, and Tailwind CSS, creating a solid foundation for our Airbnb clone.
 
 ---
 
@@ -56,6 +62,9 @@ Layout wrapper to apply dark background per-page.
 
 ### `/about`
 - Showcases custom buttons in different sizes and shapes
+
+##  Essential Configuration Files
+tsconfig.json, tailwind.config.js & postcss.config.js
 
 ---
 
