@@ -1,7 +1,7 @@
 // components/common/PostCard.tsx
 
 import React from "react";
-import { PostProps } from "@/interfaces";
+import { type PostProps } from "@/interfaces";
 
 const PostCard: React.FC<PostProps> = ({ title, content, userId }) => {
   return (

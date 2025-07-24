@@ -1,7 +1,7 @@
 // components/common/PostModal.tsx
 
 import React, { useState } from "react";
-import { PostModalProps } from "@/interfaces";
+import { type PostModalProps } from "@/interfaces";
 
 
 
